@@ -1,0 +1,177 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --brown: rgb(90, 22, 22);
+}
+body{
+    overflow-x: hidden;
+}
+#logo{
+    width: 100%;
+    height: 130px;
+}
+ul li{
+    font-size: 18px;
+}
+li i{
+    color: rgba(188, 188, 188, 0.847);
+}
+
+#contact{
+    background-color:var(--brown);
+    color: white;
+    
+}
+#contact:hover{
+    background-color: white;
+    color: var(--brown);
+    border-color: var(--brown);
+}
+@media(min-width:992px){
+    ul{
+        display: flex;
+        align-items: center;
+    }
+}
+@media(max-width:992px){
+    .nav-item i{
+       display: none;
+    }
+    
+}
+.main{
+    background-image: url('./imagess/mainbackimg.jpg');
+    width: 100%;
+    /* height: 150vh; */
+    background-attachment: fixed;
+}
+.welcome{
+    padding-top: 18%;
+    padding-left: 8%;
+}
+.welcome p{
+    color: white;
+    font-size: 50px;
+    
+}
+.welcome h1{
+    color: white;
+    font-size: 120px;
+    font-weight: 800px;
+}
+@media(max-width:600px){
+    .welcome h1{
+        
+        font-size: 30px;
+    
+    }
+    .welcome p{
+        padding-top: 8%;
+    }
+}
+#contactbtn{
+    color: white;
+    border-color: white;
+    font-size: 20px;
+    margin-bottom: 10%;
+} .work{
+    background-image: url('https://wallpaperset.com/w/full/7/a/f/67538.jpg');
+    width: 100%;
+    height:180vh;
+    background-size: cover;
+    padding-top: 8%;
+}
+.work h1{
+    font-size: 50px;
+
+}
+.viewbtn{
+ border-color: var(--brown);
+ color: var(--brown);
+} 
+.viewbtn:hover{
+    background-color: var(--brown);
+    color: white;
+}
+#about{
+    background-color: rgb(223, 218, 218);
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+#aboutimg{
+    border: 7px solid var(--brown);
+    height: 480px;
+    width: 100%;
+}
+#about h1{
+    color: var(--brown);
+}
+.hr{
+    width: 20%;
+    height: 7px;
+    background-color: var(--brown);
+}
+.projimg{
+    position: relative;
+}
+.rose{
+    width: 40%;
+  /*   padding: 30px;  */
+    height: 10%; 
+    background-color: black;
+    color: white;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     bottom: 0px;
+    
+}
+.rosewood1{
+    width: 50%;
+    /*  padding: 30px; */
+    height: 20%;
+     background-color: black;
+     color: white;
+     position: absolute;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+      bottom: 0px;
+    
+}
+
+@media(max-width:600px){
+    .rosewood{
+        height: 20%;
+        width: 40%;
+    }
+
+}
+@media(min-width:600px){
+    .rosewood{
+        height: 30%;
+        width: 50%;
+    }
+}
+.testimonial{
+    margin-top: 8%;
+
+}
+.testimonial .people{
+    margin-left: 8%;
+
+}
+.textiimg{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+}
+ .footer{
+    background-color: rgb(55, 55, 55) ;
+    width: 100%;
+   /*  height: 450px; */
+    margin-top: 8%;
+ }
